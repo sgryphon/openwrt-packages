@@ -22,6 +22,7 @@ PKG_LICENSE:=GPL-2.0-or-later LGPL-2.1-or-later
 PKG_CPE_ID:=cpe:/a:lm_sensors:lm_sensors
 
 PKG_BUILD_PARALLEL:=1
+PKG_LTO:=0
 
 include $(INCLUDE_DIR)/package.mk
 

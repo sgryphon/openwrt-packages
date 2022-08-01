@@ -16,6 +16,8 @@ PKG_SOURCE_URL:=https://github.com/keplerproject/luafilesystem.git
 PKG_SOURCE_VERSION:=v$(subst .,_,$(PKG_VERSION))
 PKG_SOURCE_PROTO:=git
 
+PKG_LTO:=0
+
 include $(INCLUDE_DIR)/package.mk
 
 define Package/luafilesystem
